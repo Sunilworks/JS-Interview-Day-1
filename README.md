@@ -38,6 +38,7 @@
 ## Q3. What is hoisting?
 
 - Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Remember that JavaScript only hoists declarations,not initialisation. Let's take a simple example of variable hoisting. Let and const keywords are not hoisted so when you try to access them before initialization they start giving you Reference error. 
+
     ```js
         console.log(message); //output : undefined
         var message = 'The variable Has been
