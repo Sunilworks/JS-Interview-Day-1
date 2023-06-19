@@ -4,14 +4,16 @@
 ## Q1. What are the differences between “ == “ and “ === “ operators?
 1. Both are comparison operators and they      return boolean values always. The difference between both the operators is that “==” is used to compare values whereas “ === “ is used to compare both value and datatype.
 
-    2. var x="2";
-       var y=2;
+2. ```js
+    var x="2";  
+    var y=2;
+   ```
 
-    3. console.log(x==y); It returns true because it only check values not data types. It is able to check the values because in == it will do type coercion to change the data type so that the value can be compared.
+3. console.log(x==y); It returns true because it only check values not data types. It is able to check the values because in == it will do type coercion to change the data type so that the value can be compared.
 
-    4. console.log(x===y); It returns false because you can see that values are same but x is of String type and y is of Number type. You can find the type of any value by using typeof operator.
+4. console.log(x===y); It returns false because you can see that values are same but x is of String type and y is of Number type. You can find the type of any value by using typeof operator.
 
-    5. So in strict equal comparison operator both value and data types should be same like x=2 and y=2 otherwise it returns false.
+5. So in strict equal comparison operator both value and data types should be same like x=2 and y=2 otherwise it returns false.
 
 ## Q2. What are the differences between var, let and const?
 
